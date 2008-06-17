@@ -8,7 +8,7 @@ License:	GPL
 Group:		System/Servers
 URL:		http://funionfs.apiou.org
 Source:		http://funionfs.apiou.org/file/%{name}-%{version}.tar.bz2
-BuildRequires:	libfuse-devel >= %{fuseversion}
+BuildRequires:	fuse-devel >= %{fuseversion}
 Requires:	fuse >= %{fuseversion}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 
