@@ -3,7 +3,7 @@
 Summary:	FunionFS - An union filesystem for FUSE 
 Name:		funionfs
 Version:	0.4.2
-Release:	%mkrel 3
+Release:	%mkrel 4
 License:	GPL
 Group:		System/Servers
 URL:		http://funionfs.apiou.org
