@@ -1,10 +1,10 @@
 %define fuseversion 2.5.2
 
-Summary:	FunionFS - An union filesystem for FUSE 
+Summary:	An union filesystem for FUSE 
 Name:		funionfs
-Version:	0.4.2
-Release:	%mkrel 4
-License:	GPL
+Version:	0.4.3
+Release:	%mkrel 1
+License:	GPLv2
 Group:		System/Servers
 URL:		http://funionfs.apiou.org
 Source:		http://funionfs.apiou.org/file/%{name}-%{version}.tar.bz2
@@ -21,20 +21,15 @@ Funionfs is very useful for embedded linux (the system must resist powerfail)
 and for live-cd Linux.
 
 %prep
-
 %setup -q -n %{name}-%{version}
 
 %build 
 rm -rf autom4te.cache
-make distclean
-
 %configure2_5x
-
 %make
 
 %install
 rm -fr %{buildroot}
-
 %makeinstall
 
 %clean
