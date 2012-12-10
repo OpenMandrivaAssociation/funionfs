@@ -42,3 +42,40 @@ rm -rf %{buildroot}
 %attr(0644,root,root) %{_mandir}/man1/%{name}.1*
 
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 0.4.3-2mdv2011.0
++ Revision: 610778
+- rebuild
+
+* Sun Feb 14 2010 Sandro Cazzaniga <kharec@mandriva.org> 0.4.3-1mdv2010.1
++ Revision: 505872
+- update to 0.4.3
+- Fix build (remove make distclean)
+- Fix summary
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 0.4.2-4mdv2010.0
++ Revision: 428970
+- rebuild
+
+* Tue Jun 17 2008 Thierry Vignaud <tv@mandriva.org> 0.4.2-3mdv2009.0
++ Revision: 222292
+- fix buildrequires on x86_64
+- rebuild
+- kill re-definition of %%buildroot on Pixel's request
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+
+* Tue Feb 06 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4.2-1mdv2007.0
++ Revision: 116595
+- Import funionfs
+
+* Tue Feb 06 2007 Oden Eriksson <oeriksson@mandriva.com> 0.4.2-1mdv2007.1
+- use the correct tar ball
+
+* Fri Sep 29 2006 Oden Eriksson <oeriksson@mandriva.com> 0.4.2-1mdk
+- initial Mandriva package (mille-xterm import)
+
