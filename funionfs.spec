@@ -6,7 +6,7 @@ Version:	0.4.3
 Release:	3
 License:	GPLv2
 Group:		System/Servers
-URL:		http://funionfs.apiou.org
+URL:		https://funionfs.apiou.org
 Source:		http://funionfs.apiou.org/file/%{name}-%{version}.tar.bz2
 BuildRequires:	fuse-devel >= %{fuseversion}
 Requires:	fuse >= %{fuseversion}
