@@ -8,6 +8,11 @@ License:	GPLv2
 Group:		System/Servers
 URL:		https://funionfs.apiou.org
 Source:		http://funionfs.apiou.org/file/%{name}-%{version}.tar.bz2
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	fuse-devel >= %{fuseversion}
 Requires:	fuse >= %{fuseversion}
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
